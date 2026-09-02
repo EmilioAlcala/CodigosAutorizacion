@@ -1,6 +1,19 @@
 # CodigosAutorizacion
-Codigos de autorizacion para programas</br>
-[CLIO]</br>
-ax2453</br>
-asw342</br>
-za234</br>
+{
+  "clientes": {
+    "COPASER-PDF-EDIT-1": {
+      "estado": "ACTIVO",
+      "vencimiento": "2026-12-31",
+      "hardware_id": "a1b2c3d4e5f6"
+    },
+    "CLIENTE-EMPRESA-B": {
+      "estado": "SUSPENDIDO",
+      "vencimiento": "2026-06-01",
+      "hardware_id": "9f8e7d6c5b4a"
+    }
+  },
+  "configuracion_global": {
+    "version_minima_requerida": "1.2.0",
+    "mensaje_mantenimiento": ""
+  }
+}
